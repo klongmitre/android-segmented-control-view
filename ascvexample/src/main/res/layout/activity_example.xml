@@ -1,0 +1,81 @@
+<!--
+  ~ NOTICE
+  ~
+  ~ This is the copyright work of The MITRE Corporation, and was produced for
+  ~ the U. S. Government under Contract Number DTFAWA-10-C-00080, and is subject
+  ~ to Federal Aviation Administration Acquisition Management System Clause
+  ~ 3.5-13, Rights In Data-General, Alt. III and Alt. IV (Oct. 1996).  No other
+  ~ use other than that granted to the U. S. Government, or to those acting on
+  ~ behalf of the U. S. Government, under that Clause is authorized without the
+  ~ express written permission of The MITRE Corporation. For further information,
+  ~ please contact The MITRE Corporation, Contracts Office,7515 Colshire Drive,
+  ~ McLean, VA  22102-7539, (703) 983-6000.
+  ~
+  ~ Approved for Public Release; Distribution Unlimited. Case Number 14-4045
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ascv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.mitre.ascv.example.Example">
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_marginBottom="15dip"
+        android:layout_height="wrap_content"
+        android:text="Added by XML (w/o stretch):" />
+
+    <org.mitre.ascv.AndroidSegmentedControlView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ascv:ascv_defaultSelection="2"
+        ascv:ascv_unselectedTextColor="@color/test_attr_unselected_text_color"
+        ascv:ascv_selectedTextColor="@color/test_attr_selected_text_color"
+        ascv:ascv_selectedColor="@color/test_attr_selected_color"
+        ascv:ascv_unselectedColor="@color/test_attr_unselected_color"
+        ascv:ascv_items="@array/three_state_option" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:layout_height="wrap_content"
+        android:text="Added by XML (w/ stretch):" />
+
+    <org.mitre.ascv.AndroidSegmentedControlView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ascv:ascv_defaultSelection="2"
+        ascv:ascv_unselectedTextColor="@color/test_attr_unselected_text_color"
+        ascv:ascv_selectedTextColor="@color/test_attr_selected_text_color"
+        ascv:ascv_selectedColor="@color/test_attr_selected_color"
+        ascv:ascv_unselectedColor="@color/test_attr_unselected_color"
+        ascv:ascv_stretch="true"
+        ascv:ascv_items="@array/three_state_option" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_height="wrap_content"
+        android:text="Added by Code:" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ascv_sample_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>
