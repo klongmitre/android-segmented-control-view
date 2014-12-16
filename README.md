@@ -1,3 +1,6 @@
+
+![](./lib/sample_ascv_image.png)
+
 ###NOTICE
 This is the copyright work of The MITRE Corporation, and was produced for
 the U. S. Government under Contract Number DTFAWA-10-C-00080, and is subject
