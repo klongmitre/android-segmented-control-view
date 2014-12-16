@@ -11,6 +11,8 @@ express written permission of The MITRE Corporation. For further information,
 please contact The MITRE Corporation, Contracts Office,7515 Colshire Drive,
 McLean, VA  22102-7539, (703) 983-6000.
 
+Approved for Public Release; Distribution Unlimited. Case Number 14-4045
+
 ###LICENSE
 Copyright 2014 The MITRE Corporation
 
