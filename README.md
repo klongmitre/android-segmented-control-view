@@ -13,6 +13,8 @@ McLean, VA  22102-7539, (703) 983-6000.
 
 Approved for Public Release; Distribution Unlimited. Case Number 14-4045
 
+Copyright 2014 The MITRE Corporation. All Rights Reserved.
+
 ###LICENSE
 Copyright 2014 The MITRE Corporation
 
